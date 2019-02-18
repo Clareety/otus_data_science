@@ -12,7 +12,7 @@ def get_data(owner_id = -11982368):
     all_posts=[]
     while True:
         r = requests.get('https://api.vk.com/method/wall.get', params = {'owner_id': owner_id,
-                                                                     'access_token': '0a2a31670a2a31670a2a3167ff0a4d819b00a2a0a2a31675635d3efb8382a036d8b3ade',
+                                                                     'access_token': ,
                                                                      'v': 5.52,
                                                                      'count':100,
                                                                      'offset': offset})
